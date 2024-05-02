@@ -25,7 +25,7 @@ const UserInfo = () => {
 
         validateAccount()
         getData()
-    }, [token, id])
+    }, [token, id, navigate])
 
     return (
         <Center>
