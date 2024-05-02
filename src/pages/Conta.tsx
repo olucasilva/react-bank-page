@@ -30,7 +30,7 @@ const Conta = () => {
         }
 
         validateAccount()
-    }, [])
+    }, [token, id])
 
     return (
         <Center>

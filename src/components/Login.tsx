@@ -63,7 +63,7 @@ export const Login = () => {
             setLoading(0)
             reset()
         }
-    }, [])
+    }, [isOpen])
 
     return (
         <>
